@@ -1,0 +1,120 @@
+body, html{
+    height: 80%;
+    margin: 0;
+}
+
+.container1{
+    position: relative;
+    background-image: url(imagens/heroimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    text-align: center;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.container1 h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.container1 .btn{
+    background-color: White;
+    border-radius: 4px;
+    padding: 20px 50px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.titulo{
+    width: 80vw;
+    margin: auto;
+    height: 9vw;
+}
+
+.container2{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.item1{
+    height: 20vw;
+    width: 30vw;
+    padding: 2px;
+    background-image: url(imagens/flauta.jpg);
+    background-position: center;
+    margin: 15px;
+}
+
+.item2{
+    height: 20vw;
+    width: 46vw;
+    padding: 2px;
+    background-image: url(imagens/violao.png);
+    background-position: center;
+    margin: 15px;
+}
+
+.item3{
+    height: 20vw;
+    width: 78vw;
+    padding: 2px;
+    background-image: url(imagens/guitarra.jpg);
+    background-position: center;
+    margin: 15px;
+}
+
+.item4{
+    height: 20vw;
+    width: 46vw;
+    padding: 2px;
+    background-image: url(imagens/bateria.jpeg);
+    background-position: center;
+    margin: 15px;
+}
+
+.item5{
+    height: 20vw;
+    width: 30vw;
+    padding: 2px;
+    background-image: url(imagens/saxofone.jpg);
+    margin: 15px;
+}
+
+.item3 article{
+    margin-top: 2vw;
+}
+
+.item4 article{
+    text-align: right;
+}
+
+.grafico article{
+    margin-top: 5vw;
+    color: black;
+}
+
+article{
+    padding: 10px;
+    margin-left: 1vw;
+    color: white;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+}
